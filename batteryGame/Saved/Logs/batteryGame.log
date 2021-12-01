@@ -1251,3 +1251,11 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.01-18.09.46:953][918]LogSavePackage: Moving '../../../../../../Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/Saved/BatteryMan_BPD4571F614CB81A57CEAE438A0010E25E.tmp' to '../../../../../../Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/Content/Blueprints/BatteryMan_BP.uasset'
 [2021.12.01-18.09.46:973][918]AssetCheck: New page: Asset Save: BatteryMan_BP
 [2021.12.01-18.09.46:973][918]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BatteryMan_BP.BatteryMan_BP
+[2021.12.01-18.26.21:173][503]LogHotReload: New module detected: UE4Editor-batteryGame-0003.dll
+[2021.12.01-18.26.21:855][506]LogHotReload: Starting Hot-Reload from IDE
+[2021.12.01-18.26.21:930][506]LogClass: Could not find existing class BatteryMan in package /Script/batteryGame for HotReload, assuming new class
+[2021.12.01-18.26.21:940][506]LogHotReload: Re-instancing BatteryMan after hot-reload.
+[2021.12.01-18.26.21:983][506]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'batteryGame' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2021.12.01-18.26.21:984][506]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.12.01-18.26.22:027][506]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0082 seconds. Added 3604 classes and 861 folders.
+[2021.12.01-18.26.22:031][506]Display: HotReload took  0.2s.

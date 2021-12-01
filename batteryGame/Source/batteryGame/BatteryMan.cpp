@@ -25,6 +25,21 @@ ABatteryMan::ABatteryMan()
 	GetCharacterMovement()->JumpZVelocity = 600.0f;
 	//How much you can control character in the air
 	GetCharacterMovement()->AirControl = 0.2f;
+
+	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
+	CameraBoom->SetupAttachment(RootComponent); //makes it a child of the capsule
+
+	//How far the spring arm is going to be away from the player
+	CameraBoom->TargetArmLength = 300.0f;
+	//Rotate the arm based on the controller
+	CameraBoom->bUsePawnControlRotation = true;
+
+	//Create camera
+	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
+	//Attach camera to the end of the camera boom and let the boom adjust the match controller rotation of the camera
+	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
+	//The camera doesn't rotate relative to the arm
+	FollowCamera->bUsePawnControlRotation = false;
 }
 
 // Called when the game starts or when spawned

@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeBatteryMan() {}
 	BATTERYGAME_API UClass* Z_Construct_UClass_ABatteryMan();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_batteryGame();
+	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
 	void ABatteryMan::StaticRegisterNativesABatteryMan()
 	{
@@ -31,6 +33,15 @@ void EmptyLinkFunctionForGeneratedCodeBatteryMan() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraBoom_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraBoom;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FollowCamera;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +56,30 @@ void EmptyLinkFunctionForGeneratedCodeBatteryMan() {}
 		{ "ModuleRelativePath", "BatteryMan.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABatteryMan_Statics::NewProp_CameraBoom_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "Comment", "//constructor\n" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "BatteryMan.h" },
+		{ "ToolTip", "constructor" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABatteryMan_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABatteryMan, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABatteryMan_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABatteryMan_Statics::NewProp_CameraBoom_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABatteryMan_Statics::NewProp_FollowCamera_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "Comment", "//attach a camera to it and hold camera\n" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "BatteryMan.h" },
+		{ "ToolTip", "attach a camera to it and hold camera" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABatteryMan_Statics::NewProp_FollowCamera = { "FollowCamera", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABatteryMan, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABatteryMan_Statics::NewProp_FollowCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABatteryMan_Statics::NewProp_FollowCamera_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABatteryMan_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryMan_Statics::NewProp_CameraBoom,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryMan_Statics::NewProp_FollowCamera,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABatteryMan_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABatteryMan>::IsAbstract,
 	};
@@ -54,11 +89,11 @@ void EmptyLinkFunctionForGeneratedCodeBatteryMan() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ABatteryMan_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ABatteryMan_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ABatteryMan_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ABatteryMan_Statics::Class_MetaDataParams))
@@ -72,7 +107,7 @@ void EmptyLinkFunctionForGeneratedCodeBatteryMan() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABatteryMan, 1443095949);
+	IMPLEMENT_CLASS(ABatteryMan, 2377568104);
 	template<> BATTERYGAME_API UClass* StaticClass<ABatteryMan>()
 	{
 		return ABatteryMan::StaticClass();
