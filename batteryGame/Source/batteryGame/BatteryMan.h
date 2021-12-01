@@ -24,7 +24,14 @@ class BATTERYGAME_API ABatteryMan : public ACharacter
 
 public:
 	// Sets default values for this character's properties
-	ABatteryMan();
+	ABatteryMan(); //constructor
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+		USpringArmComponent* CameraBoom; //attach a camera to it and hold camera
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+		UCameraComponent* FollowCamera; //* means it's a pointer
+	
 
 protected:
 	// Called when the game starts or when spawned
