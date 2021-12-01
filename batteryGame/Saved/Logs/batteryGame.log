@@ -1240,3 +1240,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.01-17.55.15:322][679]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
 [2021.12.01-17.55.15:351][679]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0085 seconds. Added 3604 classes and 861 folders.
 [2021.12.01-17.55.15:355][679]Display: HotReload took  0.1s.
+[2021.12.01-18.07.14:764][990]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.12.01-18.07.24:551][990]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.12.01-18.07.40:150][822]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BatteryMan_BP.BatteryMan_BP
+[2021.12.01-18.07.40:328][822]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2021.12.01-18.08.14:010][898]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.12.01-18.08.35:329][691]BlueprintLog: New page: Compile BatteryMan_BP
+[2021.12.01-18.08.35:367][691]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.12.01-18.09.46:927][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BatteryMan_BP" FILE="../../../../../../Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/Content/Blueprints/BatteryMan_BP.uasset" SILENT=true
+[2021.12.01-18.09.46:953][918]LogSavePackage: Moving '../../../../../../Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/Saved/BatteryMan_BPD4571F614CB81A57CEAE438A0010E25E.tmp' to '../../../../../../Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/Content/Blueprints/BatteryMan_BP.uasset'
+[2021.12.01-18.09.46:973][918]AssetCheck: New page: Asset Save: BatteryMan_BP
+[2021.12.01-18.09.46:973][918]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BatteryMan_BP.BatteryMan_BP
