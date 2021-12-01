@@ -1,0 +1,2 @@
+C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\Definitions.batteryGame.h
+C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Source\batteryGame\batteryGame.h

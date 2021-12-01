@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\batteryGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{763FA07F-66D5-44DE-B04F-8C6589415A26}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\batteryGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\batteryGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2D5F6F41-5CD7-4A19-9627-29940F921D52}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\batteryGame">
+      <UniqueIdentifier>{BFAA335F-45CB-4DE7-8589-0C55D7D27585}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\batteryGame\batteryGame.Build.cs">
+      <Filter>Source\batteryGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\batteryGame\batteryGame.cpp">
+      <Filter>Source\batteryGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\batteryGame\batteryGame.h">
+      <Filter>Source\batteryGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\batteryGame\batteryGameCharacter.cpp">
+      <Filter>Source\batteryGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\batteryGame\batteryGameCharacter.h">
+      <Filter>Source\batteryGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\batteryGame\batteryGameGameMode.cpp">
+      <Filter>Source\batteryGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\batteryGame\batteryGameGameMode.h">
+      <Filter>Source\batteryGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

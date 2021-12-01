@@ -1,0 +1,3 @@
+C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\Definitions.batteryGame.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

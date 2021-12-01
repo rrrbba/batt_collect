@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "batteryGame",
+			"Path": "C:\\Users\\Rayven Wang\\Documents\\GitHub\\batt_collect\\batteryGame\\Source\\batteryGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "batteryGameEditor",
+			"Path": "C:\\Users\\Rayven Wang\\Documents\\GitHub\\batt_collect\\batteryGame\\Source\\batteryGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
