@@ -1907,3 +1907,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.01-21.46.06:240][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2021.12.01-21.46.06:243][533]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
 [2021.12.01-21.46.06:259][534]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.12.01-23.31.43:720][ 62]LogHotReload: New module detected: UE4Editor-batteryGame-0011.dll
+[2021.12.01-23.31.44:410][ 65]LogHotReload: Starting Hot-Reload from IDE
+[2021.12.01-23.31.44:483][ 65]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'batteryGame' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.12.01-23.31.44:486][ 65]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.12.01-23.31.44:543][ 65]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0084 seconds. Added 3605 classes and 861 folders.
+[2021.12.01-23.31.44:546][ 65]Display: HotReload took  0.1s.

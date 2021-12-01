@@ -75,18 +75,38 @@ void ABatteryMan::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	//Bind move forward and right
-	PlayerInputComponent->BindAxis("MoveForward", this, ABatteryMan::MoveForward);
+	PlayerInputComponent->BindAxis("MoveForward", this, &ABatteryMan::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ABatteryMan::MoveRight);
 }
 
 void ABatteryMan::MoveForward(float Axis)
 {
+	if(!bDead)
+	{
+		//Getting rotation to find out forward direction
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
 
+		//Calculate the forward direction of this vector ->yawrotation
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+		AddMovementInput(Direction, Axis);
+		
+	}
 }
 
 void ABatteryMan::MoveRight(float Axis)
 {
+	if (!bDead)
+	{
+		//Getting rotation to find out forward direction
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
 
+		//Calculate the right direction of this vector ->yawrotation
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+		AddMovementInput(Direction, Axis);
+
+	}
 }
 
 
