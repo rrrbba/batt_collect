@@ -31,7 +31,12 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 		UCameraComponent* FollowCamera; //* means it's a pointer
-	
+
+	void MoveForward(float Axis);
+	void MoveRight(float Axis);
+
+	//Determines if character is dead to determine if we can move or not
+	bool bDead;
 
 protected:
 	// Called when the game starts or when spawned

@@ -40,7 +40,11 @@ ABatteryMan::ABatteryMan()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
 	//The camera doesn't rotate relative to the arm
 	FollowCamera->bUsePawnControlRotation = false;
+
+	bDead = false;
 }
+
+
 
 // Called when the game starts or when spawned
 void ABatteryMan::BeginPlay()
@@ -61,5 +65,20 @@ void ABatteryMan::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	//Bind the mouse (found under project settings -> input -> axis mappings -> turn
+	//this refers to the class ABatteryMan, z = yaw
+	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 }
+
+void ABatteryMan::MoveForward(float Axis)
+{
+
+}
+
+void ABatteryMan::MoveRight(float Axis)
+{
+
+}
+
 
