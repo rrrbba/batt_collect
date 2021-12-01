@@ -69,6 +69,14 @@ void ABatteryMan::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	//this refers to the class ABatteryMan, z = yaw
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+
+	//Binding jump action
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
+	//Bind move forward and right
+	PlayerInputComponent->BindAxis("MoveForward", this, ABatteryMan::MoveForward);
+	PlayerInputComponent->BindAxis("MoveRight", this, &ABatteryMan::MoveRight);
 }
 
 void ABatteryMan::MoveForward(float Axis)

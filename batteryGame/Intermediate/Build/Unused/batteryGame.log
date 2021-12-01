@@ -1,19 +1,10 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rayven Wang\Documents\GitHub\batt_collect).
   Invalidating makefile for batteryGameEditor (BatteryMan.cpp modified)
-  Parsing headers for batteryGameEditor
-    Running UnrealHeaderTool "C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\batteryGame.uproject" "C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\batteryGameEditor\Development\batteryGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Rayven Wang\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for batteryGameEditor in 3.1392889 seconds
   Building batteryGameEditor...
   Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 7 actions with 16 processes...
-    [1/7] BatteryMan_GameMode.cpp
-    [2/7] BatteryMan_GameMode.gen.cpp
-    [3/7] BatteryMan.cpp
-    [4/7] BatteryMan.gen.cpp
-    [5/7] UE4Editor-batteryGame-0005.lib
-       Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0005.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0005.exp
-    [6/7] UE4Editor-batteryGame-0005.dll
-       Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0005.suppressed.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0005.suppressed.exp
-    [7/7] batteryGameEditor.target
-  Total time in Parallel executor: 2.76 seconds
-  Total execution time: 7.68 seconds
+  Building 4 actions with 16 processes...
+    [1/4] BatteryMan.cpp
+C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Source\batteryGame\BatteryMan.cpp(78): error C3867: 'ABatteryMan::MoveForward': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Source\batteryGame\BatteryMan.cpp(78): error C2660: 'UInputComponent::BindAxis': function does not take 3 arguments
+    C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(916): note: see declaration of 'UInputComponent::BindAxis'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.26\Engine\Build\BatchFiles\Build.bat" batteryGameEditor Win64 Development -Project="C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\batteryGame.uproject" -WaitMutex -FromMsBuild" exited with code 6.
