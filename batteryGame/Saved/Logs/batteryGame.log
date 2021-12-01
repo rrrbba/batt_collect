@@ -1234,3 +1234,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.01-17.50.20:241][744]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
 [2021.12.01-17.50.20:252][744]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0089 seconds. Added 3604 classes and 861 folders.
 [2021.12.01-17.50.20:255][744]Display: HotReload took  0.0s.
+[2021.12.01-17.55.14:912][677]LogHotReload: New module detected: UE4Editor-batteryGame-0002.dll
+[2021.12.01-17.55.15:263][679]LogHotReload: Starting Hot-Reload from IDE
+[2021.12.01-17.55.15:321][679]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'batteryGame' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2021.12.01-17.55.15:322][679]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.12.01-17.55.15:351][679]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0085 seconds. Added 3604 classes and 861 folders.
+[2021.12.01-17.55.15:355][679]Display: HotReload took  0.1s.

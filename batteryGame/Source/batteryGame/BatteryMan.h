@@ -4,6 +4,17 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+
+#include "Camera/CameraComponent.h"
+#include "Components/CapsuleComponent.h"
+#include "Components/StaticMeshComponent.h"
+#include "Components/InputComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "GameFramework/Controller.h"
+#include "GameFramework/SpringArmComponent.h"
+
+#include "Blueprint/UserWidget.h"
+
 #include "BatteryMan.generated.h"
 
 UCLASS()
