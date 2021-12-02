@@ -1913,3 +1913,1014 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.01-23.31.44:486][ 65]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
 [2021.12.01-23.31.44:543][ 65]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0084 seconds. Added 3605 classes and 861 folders.
 [2021.12.01-23.31.44:546][ 65]Display: HotReload took  0.1s.
+[2021.12.01-23.32.19:208][448]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.01-23.32.19:212][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.01-23.32.19:213][448]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2021, 1:32:19 PM)
+[2021.12.01-23.32.19:240][448]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.01-23.32.19:248][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007517s)
+[2021.12.01-23.32.19:249][448]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.12.01-23.32.19:249][448]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2021.12.01-23.32.19:249][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008772s)
+[2021.12.01-23.32.19:301][448]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2021.12.01-23.32.19:302][448]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2021.12.01-23.32.19:302][448]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.01-23.32.19:302][448]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.01-23.32.19:302][448]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.01-23.32.19:302][448]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.01-23.32.19:302][448]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.01-23.32.19:302][448]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.01-23.32.19:302][448]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.01-23.32.19:302][448]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.01-23.32.19:302][448]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.01-23.32.19:302][448]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.01-23.32.19:307][448]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.01-23.32.19:307][448]LogAudioMixer: Display: 1: FrontRight
+[2021.12.01-23.32.19:316][448]LogAudioMixer: Display: Using Audio Device Headphones (Galaxy Buds+ (A722) Stereo)
+[2021.12.01-23.32.19:316][448]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.01-23.32.19:316][448]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.01-23.32.19:316][448]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.01-23.32.19:317][448]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.01-23.32.19:317][448]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.01-23.32.19:317][448]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.01-23.32.19:328][448]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.01-23.32.19:328][448]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.01-23.32.19:328][448]LogInit: FAudioDevice initialized.
+[2021.12.01-23.32.19:328][448]LogAudio: Display: Audio Device (ID: 14) registered with world 'ThirdPersonExampleMap'.
+[2021.12.01-23.32.19:338][448]LogLoad: Game class is 'BatteryMan_GameMode_BP_C'
+[2021.12.01-23.32.19:339][448]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.12.01-18.32.19
+[2021.12.01-23.32.19:339][448]LogWorld: Bringing up level for play took: 0.000618
+[2021.12.01-23.32.19:339][448]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.12.01-23.32.19:340][448]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.01-23.32.19:340][448]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.01-23.32.19:340][448]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.01-23.32.19:341][448]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.01-23.32.19:341][448]PIE: Server logged in
+[2021.12.01-23.32.19:342][448]PIE: Play in editor total start time 0.13 seconds.
+[2021.12.01-23.33.33:391][307]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-23.33.33:391][307]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.01-23.33.33:391][307]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.01-23.33.33:391][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-23.33.33:398][307]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.01-23.33.33:402][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-23.33.33:415][307]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-23.33.33:416][307]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-23.33.33:417][307]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-23.33.33:433][307]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.12.01-23.33.33:468][309]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.12.01-23.34.15:304][571]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.01-23.34.15:309][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.01-23.34.15:309][571]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2021, 1:34:15 PM)
+[2021.12.01-23.34.15:309][571]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.01-23.34.15:316][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006937s)
+[2021.12.01-23.34.15:317][571]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.12.01-23.34.15:317][571]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2021.12.01-23.34.15:317][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.007863s)
+[2021.12.01-23.34.15:333][571]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.12.01-23.34.15:334][571]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2021.12.01-23.34.15:334][571]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.01-23.34.15:334][571]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.01-23.34.15:334][571]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.01-23.34.15:334][571]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.01-23.34.15:334][571]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.01-23.34.15:334][571]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.01-23.34.15:334][571]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.01-23.34.15:334][571]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.01-23.34.15:334][571]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.01-23.34.15:334][571]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.01-23.34.15:340][571]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.01-23.34.15:340][571]LogAudioMixer: Display: 1: FrontRight
+[2021.12.01-23.34.15:351][571]LogAudioMixer: Display: Using Audio Device Headphones (Galaxy Buds+ (A722) Stereo)
+[2021.12.01-23.34.15:351][571]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.01-23.34.15:351][571]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.01-23.34.15:351][571]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.01-23.34.15:352][571]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.01-23.34.15:352][571]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.01-23.34.15:352][571]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.01-23.34.15:362][571]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.01-23.34.15:362][571]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.01-23.34.15:362][571]LogInit: FAudioDevice initialized.
+[2021.12.01-23.34.15:362][571]LogAudio: Display: Audio Device (ID: 15) registered with world 'ThirdPersonExampleMap'.
+[2021.12.01-23.34.15:366][571]LogLoad: Game class is 'BatteryMan_GameMode_BP_C'
+[2021.12.01-23.34.15:367][571]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.12.01-18.34.15
+[2021.12.01-23.34.15:367][571]LogWorld: Bringing up level for play took: 0.000639
+[2021.12.01-23.34.15:367][571]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.12.01-23.34.15:369][571]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.01-23.34.15:369][571]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.01-23.34.15:369][571]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.01-23.34.15:370][571]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.01-23.34.15:370][571]PIE: Server logged in
+[2021.12.01-23.34.15:370][571]PIE: Play in editor total start time 0.063 seconds.
+[2021.12.01-23.34.39:091][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-23.34.39:091][381]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.01-23.34.39:091][381]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.01-23.34.39:091][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-23.34.39:102][381]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.01-23.34.39:106][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-23.34.39:120][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-23.34.39:120][381]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-23.34.39:121][381]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-23.34.39:136][381]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.12.01-23.34.39:153][382]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.12.01-23.36.22:882][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.12.01-23.36.25:780][343]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.01-23.36.25:784][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.01-23.36.25:784][343]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2021, 1:36:25 PM)
+[2021.12.01-23.36.25:820][343]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.01-23.36.25:827][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007183s)
+[2021.12.01-23.36.25:828][343]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.12.01-23.36.25:829][343]LogPlayLevel: PIE: World Init took: (0.001058s)
+[2021.12.01-23.36.25:829][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008423s)
+[2021.12.01-23.36.25:847][343]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.12.01-23.36.25:849][343]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2021.12.01-23.36.25:849][343]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.01-23.36.25:849][343]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.01-23.36.25:849][343]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.01-23.36.25:849][343]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.01-23.36.25:849][343]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.01-23.36.25:849][343]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.01-23.36.25:849][343]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.01-23.36.25:849][343]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.01-23.36.25:849][343]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.01-23.36.25:849][343]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.01-23.36.25:854][343]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.01-23.36.25:854][343]LogAudioMixer: Display: 1: FrontRight
+[2021.12.01-23.36.25:863][343]LogAudioMixer: Display: Using Audio Device Headphones (Galaxy Buds+ (A722) Stereo)
+[2021.12.01-23.36.25:863][343]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.01-23.36.25:863][343]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.01-23.36.25:863][343]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.01-23.36.25:863][343]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.01-23.36.25:863][343]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.01-23.36.25:863][343]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.01-23.36.25:874][343]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.01-23.36.25:874][343]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.01-23.36.25:874][343]LogInit: FAudioDevice initialized.
+[2021.12.01-23.36.25:874][343]LogAudio: Display: Audio Device (ID: 16) registered with world 'ThirdPersonExampleMap'.
+[2021.12.01-23.36.25:880][343]LogLoad: Game class is 'BatteryMan_GameMode_BP_C'
+[2021.12.01-23.36.25:881][343]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.12.01-18.36.25
+[2021.12.01-23.36.25:881][343]LogWorld: Bringing up level for play took: 0.000608
+[2021.12.01-23.36.25:881][343]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.12.01-23.36.25:883][343]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.01-23.36.25:883][343]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.01-23.36.25:883][343]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.01-23.36.25:884][343]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.01-23.36.25:884][343]PIE: Server logged in
+[2021.12.01-23.36.25:884][343]PIE: Play in editor total start time 0.101 seconds.
+[2021.12.01-23.36.46:231][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-23.36.46:231][730]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.01-23.36.46:232][730]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.01-23.36.46:232][730]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-23.36.46:238][730]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.01-23.36.46:252][730]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-23.36.46:266][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-23.36.46:266][730]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-23.36.46:267][730]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-23.36.46:283][730]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2021.12.01-23.36.46:309][731]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.12.01-23.39.04:673][705]Candidate modules for hot reload:
+[2021.12.01-23.39.04:673][705]  batteryGame
+[2021.12.01-23.39.04:673][705]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=batteryGame,8078 batteryGameEditor Win64 Development -Project="C:/Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/batteryGame.uproject" "C:/Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/batteryGame.uproject"  -IgnoreJunk]
+[2021.12.01-23.39.04:675][705]Warning: Starting HotReload took  0.0s.
+[2021.12.01-23.39.09:429][166]CompilerResultsLog: New page: Compilation - Dec 1, 2021, 1:39:09 PM
+[2021.12.01-23.39.09:429][166]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rayven Wang\Documents\GitHub\batt_collect).
+[2021.12.01-23.39.09:429][166]CompilerResultsLog: Invalidating makefile for batteryGameEditor (BatteryMan.cpp modified)
+[2021.12.01-23.39.09:429][166]CompilerResultsLog: Building batteryGameEditor...
+[2021.12.01-23.39.09:429][166]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.12.01-23.39.09:429][166]CompilerResultsLog: Building 4 actions with 16 processes...
+[2021.12.01-23.39.09:429][166]CompilerResultsLog:   [1/4] BatteryMan.cpp
+[2021.12.01-23.39.09:429][166]CompilerResultsLog:   [2/4] UE4Editor-batteryGame-8078.lib
+[2021.12.01-23.39.09:429][166]CompilerResultsLog:      Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-8078.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-8078.exp
+[2021.12.01-23.39.09:429][166]CompilerResultsLog:   [3/4] UE4Editor-batteryGame-8078.dll
+[2021.12.01-23.39.09:429][166]CompilerResultsLog:      Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-8078.suppressed.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-8078.suppressed.exp
+[2021.12.01-23.39.09:429][166]CompilerResultsLog:   [4/4] batteryGameEditor.target
+[2021.12.01-23.39.09:429][166]CompilerResultsLog: Total time in Parallel executor: 3.01 seconds
+[2021.12.01-23.39.09:429][166]CompilerResultsLog: Total execution time: 4.67 seconds
+[2021.12.01-23.39.09:429][166]LogMainFrame: MainFrame: Module compiling took 4.759 seconds
+[2021.12.01-23.39.09:475][166]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'batteryGame' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.12.01-23.39.09:479][166]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.12.01-23.39.09:536][166]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0083 seconds. Added 3605 classes and 861 folders.
+[2021.12.01-23.39.09:536][166]Display: HotReload took  4.9s.
+[2021.12.01-23.39.11:336][252]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.01-23.39.11:341][252]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.01-23.39.11:341][252]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2021, 1:39:11 PM)
+[2021.12.01-23.39.11:380][252]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.01-23.39.11:387][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007131s)
+[2021.12.01-23.39.11:388][252]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.12.01-23.39.11:389][252]LogPlayLevel: PIE: World Init took: (0.001161s)
+[2021.12.01-23.39.11:389][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008462s)
+[2021.12.01-23.39.11:442][252]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2021.12.01-23.39.11:443][252]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2021.12.01-23.39.11:443][252]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.01-23.39.11:443][252]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.01-23.39.11:443][252]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.01-23.39.11:443][252]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.01-23.39.11:443][252]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.01-23.39.11:443][252]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.01-23.39.11:443][252]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.01-23.39.11:443][252]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.01-23.39.11:443][252]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.01-23.39.11:443][252]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.01-23.39.11:448][252]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.01-23.39.11:448][252]LogAudioMixer: Display: 1: FrontRight
+[2021.12.01-23.39.11:456][252]LogAudioMixer: Display: Using Audio Device Headphones (Galaxy Buds+ (A722) Stereo)
+[2021.12.01-23.39.11:457][252]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.01-23.39.11:457][252]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.01-23.39.11:457][252]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.01-23.39.11:457][252]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.01-23.39.11:457][252]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.01-23.39.11:457][252]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.01-23.39.11:468][252]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.01-23.39.11:468][252]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.01-23.39.11:468][252]LogInit: FAudioDevice initialized.
+[2021.12.01-23.39.11:468][252]LogAudio: Display: Audio Device (ID: 17) registered with world 'ThirdPersonExampleMap'.
+[2021.12.01-23.39.11:477][252]LogLoad: Game class is 'BatteryMan_GameMode_BP_C'
+[2021.12.01-23.39.11:478][252]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.12.01-18.39.11
+[2021.12.01-23.39.11:478][252]LogWorld: Bringing up level for play took: 0.000620
+[2021.12.01-23.39.11:478][252]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.12.01-23.39.11:479][252]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.01-23.39.11:479][252]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.01-23.39.11:479][252]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.01-23.39.11:480][252]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.01-23.39.11:480][252]PIE: Server logged in
+[2021.12.01-23.39.11:481][252]PIE: Play in editor total start time 0.142 seconds.
+[2021.12.01-23.39.23:971][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-23.39.23:971][722]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.01-23.39.23:971][722]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.01-23.39.23:972][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-23.39.23:979][722]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.01-23.39.23:994][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-23.39.24:008][722]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.01-23.39.24:011][722]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-23.39.24:012][722]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-23.39.24:024][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-23.39.24:045][722]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.12.01-23.39.24:069][723]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.12.01-23.42.55:206][181]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{ff277739-7c63-4c44-a57d-9ed1684e3bbd}.
+[2021.12.01-23.42.55:206][181]LogAudioMixer: Resetting audio stream to device id 
+[2021.12.01-23.42.55:244][181]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.01-23.42.55:244][181]LogAudioMixer: Display: 1: FrontRight
+[2021.12.01-23.47.09:127][116]Candidate modules for hot reload:
+[2021.12.01-23.47.09:127][116]  batteryGame
+[2021.12.01-23.47.09:127][116]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=batteryGame,576 batteryGameEditor Win64 Development -Project="C:/Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/batteryGame.uproject" "C:/Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/batteryGame.uproject"  -IgnoreJunk]
+[2021.12.01-23.47.09:129][116]Warning: Starting HotReload took  0.1s.
+[2021.12.01-23.47.10:616][230]CompilerResultsLog: New page: Compilation - Dec 1, 2021, 1:47:10 PM
+[2021.12.01-23.47.10:616][230]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rayven Wang\Documents\GitHub\batt_collect).
+[2021.12.01-23.47.10:616][230]CompilerResultsLog: Building batteryGameEditor...
+[2021.12.01-23.47.10:616][230]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.12.01-23.47.10:616][230]CompilerResultsLog: Building 3 actions with 16 processes...
+[2021.12.01-23.47.10:616][230]CompilerResultsLog:   [1/3] UE4Editor-batteryGame-0576.lib
+[2021.12.01-23.47.10:616][230]CompilerResultsLog:      Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0576.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0576.exp
+[2021.12.01-23.47.10:616][230]CompilerResultsLog:   [2/3] UE4Editor-batteryGame-0576.dll
+[2021.12.01-23.47.10:616][230]CompilerResultsLog:      Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0576.suppressed.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0576.suppressed.exp
+[2021.12.01-23.47.10:616][230]CompilerResultsLog:   [3/3] batteryGameEditor.target
+[2021.12.01-23.47.10:616][230]CompilerResultsLog: Total time in Parallel executor: 0.84 seconds
+[2021.12.01-23.47.10:616][230]CompilerResultsLog: Total execution time: 1.41 seconds
+[2021.12.01-23.47.10:616][230]LogMainFrame: MainFrame: Module compiling took 1.535 seconds
+[2021.12.01-23.47.10:629][230]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0090 seconds. Added 3605 classes and 861 folders.
+[2021.12.01-23.47.10:629][230]Display: HotReload took  1.6s.
+[2021.12.01-23.47.12:027][348]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.01-23.47.12:032][348]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.01-23.47.12:032][348]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2021, 1:47:12 PM)
+[2021.12.01-23.47.12:054][348]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.01-23.47.12:061][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007279s)
+[2021.12.01-23.47.12:062][348]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.12.01-23.47.12:062][348]LogPlayLevel: PIE: World Init took: (0.001111s)
+[2021.12.01-23.47.12:062][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008558s)
+[2021.12.01-23.47.12:118][348]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2021.12.01-23.47.12:119][348]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2021.12.01-23.47.12:119][348]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.01-23.47.12:119][348]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.01-23.47.12:119][348]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.01-23.47.12:119][348]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.01-23.47.12:119][348]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.01-23.47.12:119][348]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.01-23.47.12:119][348]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.01-23.47.12:119][348]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.01-23.47.12:119][348]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.01-23.47.12:119][348]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.01-23.47.12:124][348]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.01-23.47.12:124][348]LogAudioMixer: Display: 1: FrontRight
+[2021.12.01-23.47.12:133][348]LogAudioMixer: Display: Using Audio Device VG245 (NVIDIA High Definition Audio)
+[2021.12.01-23.47.12:133][348]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.01-23.47.12:133][348]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.01-23.47.12:133][348]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.01-23.47.12:133][348]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.01-23.47.12:134][348]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.01-23.47.12:134][348]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.01-23.47.12:144][348]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.01-23.47.12:144][348]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.01-23.47.12:144][348]LogInit: FAudioDevice initialized.
+[2021.12.01-23.47.12:144][348]LogAudio: Display: Audio Device (ID: 18) registered with world 'ThirdPersonExampleMap'.
+[2021.12.01-23.47.12:153][348]LogLoad: Game class is 'BatteryMan_GameMode_BP_C'
+[2021.12.01-23.47.12:154][348]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.12.01-18.47.12
+[2021.12.01-23.47.12:154][348]LogWorld: Bringing up level for play took: 0.000644
+[2021.12.01-23.47.12:154][348]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.12.01-23.47.12:155][348]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.01-23.47.12:155][348]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.01-23.47.12:155][348]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.01-23.47.12:156][348]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.01-23.47.12:156][348]PIE: Server logged in
+[2021.12.01-23.47.12:157][348]PIE: Play in editor total start time 0.126 seconds.
+[2021.12.01-23.47.19:315][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-23.47.19:315][158]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.01-23.47.19:315][158]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.01-23.47.19:315][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-23.47.19:321][158]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.01-23.47.19:335][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-23.47.19:349][158]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.01-23.47.19:349][158]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-23.47.19:350][158]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-23.47.19:363][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-23.47.19:367][158]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2021.12.01-23.47.19:391][159]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.12.01-23.47.21:095][359]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.01-23.47.21:102][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.01-23.47.21:102][359]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2021, 1:47:21 PM)
+[2021.12.01-23.47.21:124][359]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.01-23.47.21:131][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006651s)
+[2021.12.01-23.47.21:131][359]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.12.01-23.47.21:132][359]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2021.12.01-23.47.21:132][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.007950s)
+[2021.12.01-23.47.21:150][359]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2021.12.01-23.47.21:152][359]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2021.12.01-23.47.21:152][359]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.01-23.47.21:152][359]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.01-23.47.21:152][359]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.01-23.47.21:152][359]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.01-23.47.21:152][359]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.01-23.47.21:152][359]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.01-23.47.21:152][359]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.01-23.47.21:152][359]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.01-23.47.21:152][359]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.01-23.47.21:152][359]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.01-23.47.21:156][359]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.01-23.47.21:156][359]LogAudioMixer: Display: 1: FrontRight
+[2021.12.01-23.47.21:165][359]LogAudioMixer: Display: Using Audio Device VG245 (NVIDIA High Definition Audio)
+[2021.12.01-23.47.21:165][359]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.01-23.47.21:165][359]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.01-23.47.21:165][359]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.01-23.47.21:165][359]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.01-23.47.21:165][359]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.01-23.47.21:165][359]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.01-23.47.21:176][359]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.01-23.47.21:176][359]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.01-23.47.21:176][359]LogInit: FAudioDevice initialized.
+[2021.12.01-23.47.21:176][359]LogAudio: Display: Audio Device (ID: 19) registered with world 'ThirdPersonExampleMap'.
+[2021.12.01-23.47.21:181][359]LogLoad: Game class is 'BatteryMan_GameMode_BP_C'
+[2021.12.01-23.47.21:182][359]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.12.01-18.47.21
+[2021.12.01-23.47.21:182][359]LogWorld: Bringing up level for play took: 0.000599
+[2021.12.01-23.47.21:183][359]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.12.01-23.47.21:184][359]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.01-23.47.21:184][359]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.01-23.47.21:184][359]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.01-23.47.21:185][359]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.01-23.47.21:185][359]PIE: Server logged in
+[2021.12.01-23.47.21:185][359]PIE: Play in editor total start time 0.084 seconds.
+[2021.12.01-23.47.47:316][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-23.47.47:316][458]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.01-23.47.47:316][458]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.01-23.47.47:316][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-23.47.47:323][458]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.01-23.47.47:338][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-23.47.47:352][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-23.47.47:352][458]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-23.47.47:353][458]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-23.47.47:369][458]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.12.01-23.47.47:391][459]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.12.01-23.48.34:622][921]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.01-23.48.34:627][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.01-23.48.34:627][921]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2021, 1:48:34 PM)
+[2021.12.01-23.48.34:627][921]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.01-23.48.34:634][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006758s)
+[2021.12.01-23.48.34:635][921]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.12.01-23.48.34:635][921]LogPlayLevel: PIE: World Init took: (0.001137s)
+[2021.12.01-23.48.34:635][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008027s)
+[2021.12.01-23.48.34:655][921]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2021.12.01-23.48.34:656][921]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2021.12.01-23.48.34:656][921]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.01-23.48.34:656][921]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.01-23.48.34:656][921]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.01-23.48.34:656][921]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.01-23.48.34:656][921]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.01-23.48.34:656][921]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.01-23.48.34:656][921]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.01-23.48.34:656][921]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.01-23.48.34:656][921]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.01-23.48.34:656][921]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.01-23.48.34:661][921]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.01-23.48.34:661][921]LogAudioMixer: Display: 1: FrontRight
+[2021.12.01-23.48.34:669][921]LogAudioMixer: Display: Using Audio Device VG245 (NVIDIA High Definition Audio)
+[2021.12.01-23.48.34:670][921]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.01-23.48.34:670][921]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.01-23.48.34:670][921]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.01-23.48.34:670][921]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.01-23.48.34:670][921]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.01-23.48.34:670][921]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.01-23.48.34:681][921]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.01-23.48.34:681][921]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.01-23.48.34:681][921]LogInit: FAudioDevice initialized.
+[2021.12.01-23.48.34:681][921]LogAudio: Display: Audio Device (ID: 20) registered with world 'ThirdPersonExampleMap'.
+[2021.12.01-23.48.34:689][921]LogLoad: Game class is 'BatteryMan_GameMode_BP_C'
+[2021.12.01-23.48.34:689][921]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.12.01-18.48.34
+[2021.12.01-23.48.34:690][921]LogWorld: Bringing up level for play took: 0.000598
+[2021.12.01-23.48.34:690][921]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.12.01-23.48.34:691][921]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.01-23.48.34:691][921]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.01-23.48.34:691][921]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.01-23.48.34:692][921]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.01-23.48.34:692][921]PIE: Server logged in
+[2021.12.01-23.48.34:692][921]PIE: Play in editor total start time 0.066 seconds.
+[2021.12.01-23.49.07:448][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-23.49.07:448][827]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.01-23.49.07:448][827]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.01-23.49.07:448][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-23.49.07:456][827]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.01-23.49.07:471][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-23.49.07:485][827]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.01-23.49.07:485][827]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-23.49.07:486][827]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-23.49.07:499][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-23.49.07:502][827]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.12.01-23.49.07:546][829]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.12.01-23.53.07:130][174]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{d7b7ac29-935d-4455-bbb8-dc698a098908}.
+[2021.12.01-23.53.07:130][174]LogAudioMixer: Resetting audio stream to device id 
+[2021.12.01-23.53.07:173][174]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.01-23.53.07:173][174]LogAudioMixer: Display: 1: FrontRight
+[2021.12.01-23.56.13:763][938]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.12.01-23.56.20:372][938]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.12.01-23.57.00:718][873]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PickableItem_BP.PickableItem_BP
+[2021.12.02-01.14.49:875][233]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{9c2f483a-8880-4df3-97af-14801ffdb649}.
+[2021.12.02-01.14.49:875][233]LogAudioMixer: Resetting audio stream to device id 
+[2021.12.02-01.14.49:922][233]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-01.14.49:922][233]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-01.18.55:631][968]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{d7b7ac29-935d-4455-bbb8-dc698a098908}.
+[2021.12.02-01.18.55:631][968]LogAudioMixer: Resetting audio stream to device id 
+[2021.12.02-01.18.55:687][968]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-01.18.55:687][968]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-01.22.04:615][532]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.12.02-01.22.06:441][538]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.12.02-01.22.06:441][538]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.12.02-01.22.06:441][538]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.12.02-01.22.06:630][538]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.12.02-02.12.47:622][ 88]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.02-02.12.47:630][ 88]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.12.02-02.12.47:633][ 88]LogPlayLevel: [PlayLevel] Compiling PickableItem_BP before play...
+[2021.12.02-02.12.47:748][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   9.48ms
+[2021.12.02-02.12.47:755][ 88]LogPlayLevel: PlayLevel: Blueprint regeneration took 125 ms (1 blueprints)
+[2021.12.02-02.12.47:756][ 88]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2021, 4:12:47 PM)
+[2021.12.02-02.12.47:756][ 88]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.02-02.12.47:768][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012062s)
+[2021.12.02-02.12.47:769][ 88]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.12.02-02.12.47:770][ 88]LogPlayLevel: PIE: World Init took: (0.001884s)
+[2021.12.02-02.12.47:770][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014296s)
+[2021.12.02-02.12.47:802][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2021.12.02-02.12.47:802][ 88]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2021.12.02-02.12.47:803][ 88]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-02.12.47:803][ 88]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-02.12.47:803][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-02.12.47:803][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-02.12.47:803][ 88]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.02-02.12.47:803][ 88]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.02-02.12.47:803][ 88]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.02-02.12.47:803][ 88]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-02.12.47:803][ 88]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.02-02.12.47:803][ 88]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-02.12.47:808][ 88]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-02.12.47:808][ 88]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-02.12.47:818][ 88]LogAudioMixer: Display: Using Audio Device Headphones (Galaxy Buds+ (A722) Stereo)
+[2021.12.02-02.12.47:818][ 88]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-02.12.47:818][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-02.12.47:818][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-02.12.47:819][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-02.12.47:819][ 88]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-02.12.47:819][ 88]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-02.12.47:829][ 88]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-02.12.47:829][ 88]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-02.12.47:829][ 88]LogInit: FAudioDevice initialized.
+[2021.12.02-02.12.47:829][ 88]LogAudio: Display: Audio Device (ID: 21) registered with world 'ThirdPersonExampleMap'.
+[2021.12.02-02.12.47:840][ 88]LogLoad: Game class is 'BatteryMan_GameMode_BP_C'
+[2021.12.02-02.12.47:841][ 88]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.12.01-21.12.47
+[2021.12.02-02.12.47:842][ 88]LogWorld: Bringing up level for play took: 0.001120
+[2021.12.02-02.12.47:842][ 88]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.12.02-02.12.47:843][ 88]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.02-02.12.47:844][ 88]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.02-02.12.47:844][ 88]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.02-02.12.47:845][ 88]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.02-02.12.47:845][ 88]PIE: Server logged in
+[2021.12.02-02.12.47:846][ 88]PIE: Play in editor total start time 0.217 seconds.
+[2021.12.02-02.13.42:978][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-02.13.42:978][611]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.02-02.13.42:978][611]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-02.13.42:979][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-02.13.42:986][611]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-02.13.43:004][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-02.13.43:028][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-02.13.43:028][611]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-02.13.43:029][611]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-02.13.43:051][611]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2021.12.02-02.13.43:096][612]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.12.02-02.15.11:851][533]LogSlate: Window 'Editor Preferences' being destroyed
+[2021.12.02-02.15.11:854][533]LogSlate: Window 'Editor Preferences' being destroyed
+[2021.12.02-02.15.17:646][149]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.02-02.15.17:650][149]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-02.15.17:651][149]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2021, 4:15:17 PM)
+[2021.12.02-02.15.17:676][149]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.02-02.15.17:684][149]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007369s)
+[2021.12.02-02.15.17:685][149]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.12.02-02.15.17:685][149]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2021.12.02-02.15.17:685][149]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008656s)
+[2021.12.02-02.15.17:711][149]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2021.12.02-02.15.17:729][149]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2021.12.02-02.15.17:729][149]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-02.15.17:729][149]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-02.15.17:729][149]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-02.15.17:729][149]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-02.15.17:729][149]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.02-02.15.17:729][149]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.02-02.15.17:729][149]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.02-02.15.17:729][149]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-02.15.17:730][149]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.02-02.15.17:730][149]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-02.15.17:735][149]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-02.15.17:735][149]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-02.15.17:744][149]LogAudioMixer: Display: Using Audio Device Headphones (Galaxy Buds+ (A722) Stereo)
+[2021.12.02-02.15.17:744][149]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-02.15.17:744][149]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-02.15.17:744][149]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-02.15.17:745][149]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-02.15.17:745][149]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-02.15.17:745][149]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-02.15.17:756][149]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-02.15.17:756][149]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-02.15.17:756][149]LogInit: FAudioDevice initialized.
+[2021.12.02-02.15.17:756][149]LogAudio: Display: Audio Device (ID: 22) registered with world 'ThirdPersonExampleMap'.
+[2021.12.02-02.15.17:764][149]LogLoad: Game class is 'BatteryMan_GameMode_BP_C'
+[2021.12.02-02.15.17:765][149]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.12.01-21.15.17
+[2021.12.02-02.15.17:765][149]LogWorld: Bringing up level for play took: 0.000655
+[2021.12.02-02.15.17:766][149]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.12.02-02.15.17:767][149]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.02-02.15.17:767][149]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.02-02.15.17:767][149]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.02-02.15.17:768][149]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.02-02.15.17:768][149]PIE: Server logged in
+[2021.12.02-02.15.17:769][149]PIE: Play in editor total start time 0.119 seconds.
+[2021.12.02-02.16.05:218][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-02.16.05:218][774]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.02-02.16.05:218][774]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-02.16.05:218][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-02.16.05:225][774]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-02.16.05:242][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-02.16.05:262][774]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.02-02.16.05:263][774]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-02.16.05:263][774]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-02.16.05:276][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-02.16.05:280][774]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.12.02-02.16.05:305][775]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.12.02-02.29.57:111][554]Candidate modules for hot reload:
+[2021.12.02-02.29.57:111][554]  batteryGame
+[2021.12.02-02.29.57:111][554]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=batteryGame,408 batteryGameEditor Win64 Development -Project="C:/Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/batteryGame.uproject" "C:/Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/batteryGame.uproject"  -IgnoreJunk]
+[2021.12.02-02.29.57:113][554]Warning: Starting HotReload took  0.0s.
+[2021.12.02-02.30.02:106][ 53]CompilerResultsLog: New page: Compilation - Dec 1, 2021, 4:30:02 PM
+[2021.12.02-02.30.02:106][ 53]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rayven Wang\Documents\GitHub\batt_collect).
+[2021.12.02-02.30.02:106][ 53]CompilerResultsLog: Invalidating makefile for batteryGameEditor (BatteryMan.cpp modified)
+[2021.12.02-02.30.02:106][ 53]CompilerResultsLog: Building batteryGameEditor...
+[2021.12.02-02.30.02:106][ 53]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.12.02-02.30.02:106][ 53]CompilerResultsLog: Building 4 actions with 16 processes...
+[2021.12.02-02.30.02:106][ 53]CompilerResultsLog:   [1/4] BatteryMan.cpp
+[2021.12.02-02.30.02:106][ 53]CompilerResultsLog:   [2/4] UE4Editor-batteryGame-0408.lib
+[2021.12.02-02.30.02:106][ 53]CompilerResultsLog:      Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0408.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0408.exp
+[2021.12.02-02.30.02:106][ 53]CompilerResultsLog:   [3/4] UE4Editor-batteryGame-0408.dll
+[2021.12.02-02.30.02:106][ 53]CompilerResultsLog:      Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0408.suppressed.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0408.suppressed.exp
+[2021.12.02-02.30.02:106][ 53]CompilerResultsLog:   [4/4] batteryGameEditor.target
+[2021.12.02-02.30.02:106][ 53]CompilerResultsLog: Total time in Parallel executor: 3.08 seconds
+[2021.12.02-02.30.02:106][ 53]CompilerResultsLog: Total execution time: 4.92 seconds
+[2021.12.02-02.30.02:106][ 53]LogMainFrame: MainFrame: Module compiling took 4.998 seconds
+[2021.12.02-02.30.02:135][ 53]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0199 seconds. Added 3605 classes and 861 folders.
+[2021.12.02-02.30.02:136][ 53]Display: HotReload took  5.0s.
+[2021.12.02-02.30.03:450][ 82]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.02-02.30.03:455][ 82]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-02.30.03:455][ 82]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2021, 4:30:03 PM)
+[2021.12.02-02.30.03:455][ 82]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.02-02.30.03:462][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007109s)
+[2021.12.02-02.30.03:463][ 82]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.12.02-02.30.03:464][ 82]LogPlayLevel: PIE: World Init took: (0.001330s)
+[2021.12.02-02.30.03:464][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008633s)
+[2021.12.02-02.30.03:564][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2021.12.02-02.30.03:565][ 82]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2021.12.02-02.30.03:566][ 82]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-02.30.03:566][ 82]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-02.30.03:566][ 82]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-02.30.03:566][ 82]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-02.30.03:566][ 82]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.02-02.30.03:566][ 82]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.02-02.30.03:566][ 82]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.02-02.30.03:566][ 82]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-02.30.03:566][ 82]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.02-02.30.03:566][ 82]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-02.30.03:571][ 82]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-02.30.03:571][ 82]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-02.30.03:581][ 82]LogAudioMixer: Display: Using Audio Device Headphones (Galaxy Buds+ (A722) Stereo)
+[2021.12.02-02.30.03:581][ 82]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-02.30.03:581][ 82]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-02.30.03:581][ 82]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-02.30.03:581][ 82]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-02.30.03:581][ 82]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-02.30.03:581][ 82]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-02.30.03:592][ 82]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-02.30.03:592][ 82]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-02.30.03:592][ 82]LogInit: FAudioDevice initialized.
+[2021.12.02-02.30.03:592][ 82]LogAudio: Display: Audio Device (ID: 23) registered with world 'ThirdPersonExampleMap'.
+[2021.12.02-02.30.03:601][ 82]LogLoad: Game class is 'BatteryMan_GameMode_BP_C'
+[2021.12.02-02.30.03:602][ 82]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.12.01-21.30.03
+[2021.12.02-02.30.03:602][ 82]LogWorld: Bringing up level for play took: 0.000629
+[2021.12.02-02.30.03:602][ 82]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.12.02-02.30.03:603][ 82]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.02-02.30.03:603][ 82]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.02-02.30.03:603][ 82]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.02-02.30.03:604][ 82]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.02-02.30.03:604][ 82]PIE: Server logged in
+[2021.12.02-02.30.03:605][ 82]PIE: Play in editor total start time 0.152 seconds.
+[2021.12.02-02.30.09:478][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-02.30.09:478][726]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.02-02.30.09:478][726]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-02.30.09:478][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-02.30.09:483][726]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-02.30.09:499][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-02.30.09:523][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-02.30.09:528][726]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-02.30.09:529][726]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-02.30.09:566][726]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2021.12.02-02.30.09:595][727]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.12.02-02.30.26:892][764]Candidate modules for hot reload:
+[2021.12.02-02.30.26:892][764]  batteryGame
+[2021.12.02-02.30.26:892][764]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=batteryGame,181 batteryGameEditor Win64 Development -Project="C:/Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/batteryGame.uproject" "C:/Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/batteryGame.uproject"  -IgnoreJunk]
+[2021.12.02-02.30.26:894][764]Warning: Starting HotReload took  0.0s.
+[2021.12.02-02.30.28:420][858]CompilerResultsLog: New page: Compilation - Dec 1, 2021, 4:30:28 PM
+[2021.12.02-02.30.28:420][858]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rayven Wang\Documents\GitHub\batt_collect).
+[2021.12.02-02.30.28:420][858]CompilerResultsLog: Building batteryGameEditor...
+[2021.12.02-02.30.28:420][858]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.12.02-02.30.28:420][858]CompilerResultsLog: Building 3 actions with 16 processes...
+[2021.12.02-02.30.28:420][858]CompilerResultsLog:   [1/3] UE4Editor-batteryGame-0181.lib
+[2021.12.02-02.30.28:420][858]CompilerResultsLog:      Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0181.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0181.exp
+[2021.12.02-02.30.28:420][858]CompilerResultsLog:   [2/3] UE4Editor-batteryGame-0181.dll
+[2021.12.02-02.30.28:420][858]CompilerResultsLog:      Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0181.suppressed.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0181.suppressed.exp
+[2021.12.02-02.30.28:421][858]CompilerResultsLog:   [3/3] batteryGameEditor.target
+[2021.12.02-02.30.28:421][858]CompilerResultsLog: Total time in Parallel executor: 0.84 seconds
+[2021.12.02-02.30.28:421][858]CompilerResultsLog: Total execution time: 1.45 seconds
+[2021.12.02-02.30.28:421][858]LogMainFrame: MainFrame: Module compiling took 1.532 seconds
+[2021.12.02-02.30.28:433][858]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0085 seconds. Added 3605 classes and 861 folders.
+[2021.12.02-02.30.28:433][858]Display: HotReload took  1.5s.
+[2021.12.02-02.30.30:082][999]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.02-02.30.30:087][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-02.30.30:087][999]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2021, 4:30:30 PM)
+[2021.12.02-02.30.30:087][999]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.02-02.30.30:094][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007142s)
+[2021.12.02-02.30.30:095][999]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.12.02-02.30.30:096][999]LogPlayLevel: PIE: World Init took: (0.001231s)
+[2021.12.02-02.30.30:096][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008577s)
+[2021.12.02-02.30.30:158][999]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2021.12.02-02.30.30:158][999]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2021.12.02-02.30.30:158][999]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-02.30.30:158][999]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-02.30.30:158][999]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-02.30.30:158][999]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-02.30.30:158][999]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.02-02.30.30:158][999]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.02-02.30.30:158][999]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.02-02.30.30:158][999]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-02.30.30:159][999]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.02-02.30.30:159][999]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-02.30.30:163][999]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-02.30.30:163][999]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-02.30.30:172][999]LogAudioMixer: Display: Using Audio Device Headphones (Galaxy Buds+ (A722) Stereo)
+[2021.12.02-02.30.30:172][999]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-02.30.30:172][999]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-02.30.30:172][999]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-02.30.30:173][999]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-02.30.30:173][999]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-02.30.30:173][999]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-02.30.30:183][999]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-02.30.30:183][999]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-02.30.30:183][999]LogInit: FAudioDevice initialized.
+[2021.12.02-02.30.30:183][999]LogAudio: Display: Audio Device (ID: 24) registered with world 'ThirdPersonExampleMap'.
+[2021.12.02-02.30.30:190][999]LogLoad: Game class is 'BatteryMan_GameMode_BP_C'
+[2021.12.02-02.30.30:191][999]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.12.01-21.30.30
+[2021.12.02-02.30.30:191][999]LogWorld: Bringing up level for play took: 0.000656
+[2021.12.02-02.30.30:191][999]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.12.02-02.30.30:192][999]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.02-02.30.30:192][999]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.02-02.30.30:192][999]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.02-02.30.30:193][999]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.02-02.30.30:193][999]PIE: Server logged in
+[2021.12.02-02.30.30:194][999]PIE: Play in editor total start time 0.108 seconds.
+[2021.12.02-02.30.43:258][529]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-02.30.43:258][529]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.02-02.30.43:258][529]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-02.30.43:258][529]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-02.30.43:263][529]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-02.30.43:279][529]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-02.30.43:298][529]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-02.30.43:298][529]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-02.30.43:299][529]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-02.30.43:317][529]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2021.12.02-02.30.43:346][530]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.12.02-02.34.04:708][973]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.12.02-02.34.05:739][ 70]Candidate modules for hot reload:
+[2021.12.02-02.34.05:739][ 70]  batteryGame
+[2021.12.02-02.34.05:739][ 70]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=batteryGame,7879 batteryGameEditor Win64 Development -Project="C:/Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/batteryGame.uproject" "C:/Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/batteryGame.uproject"  -IgnoreJunk]
+[2021.12.02-02.34.05:741][ 70]Warning: Starting HotReload took  0.0s.
+[2021.12.02-02.34.07:318][195]CompilerResultsLog: New page: Compilation - Dec 1, 2021, 4:34:07 PM
+[2021.12.02-02.34.07:318][195]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rayven Wang\Documents\GitHub\batt_collect).
+[2021.12.02-02.34.07:318][195]CompilerResultsLog: Building batteryGameEditor...
+[2021.12.02-02.34.07:318][195]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.12.02-02.34.07:318][195]CompilerResultsLog: Building 3 actions with 16 processes...
+[2021.12.02-02.34.07:318][195]CompilerResultsLog:   [1/3] UE4Editor-batteryGame-7879.lib
+[2021.12.02-02.34.07:318][195]CompilerResultsLog:      Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-7879.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-7879.exp
+[2021.12.02-02.34.07:318][195]CompilerResultsLog:   [2/3] UE4Editor-batteryGame-7879.dll
+[2021.12.02-02.34.07:318][195]CompilerResultsLog:      Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-7879.suppressed.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-7879.suppressed.exp
+[2021.12.02-02.34.07:318][195]CompilerResultsLog:   [3/3] batteryGameEditor.target
+[2021.12.02-02.34.07:318][195]CompilerResultsLog: Total time in Parallel executor: 0.87 seconds
+[2021.12.02-02.34.07:318][195]CompilerResultsLog: Total execution time: 1.50 seconds
+[2021.12.02-02.34.07:318][195]LogMainFrame: MainFrame: Module compiling took 1.582 seconds
+[2021.12.02-02.34.07:370][195]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'batteryGame' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.12.02-02.34.07:376][195]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.12.02-02.34.07:452][195]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0090 seconds. Added 3605 classes and 861 folders.
+[2021.12.02-02.34.07:453][195]Display: HotReload took  1.7s.
+[2021.12.02-02.34.07:879][205]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.12.02-02.34.12:296][394]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.02-02.34.12:301][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-02.34.12:301][394]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2021, 4:34:12 PM)
+[2021.12.02-02.34.12:301][394]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.02-02.34.12:308][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007237s)
+[2021.12.02-02.34.12:309][394]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.12.02-02.34.12:309][394]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2021.12.02-02.34.12:309][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008226s)
+[2021.12.02-02.34.12:374][394]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2021.12.02-02.34.12:375][394]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2021.12.02-02.34.12:375][394]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-02.34.12:375][394]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-02.34.12:375][394]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-02.34.12:375][394]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-02.34.12:375][394]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.02-02.34.12:375][394]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.02-02.34.12:375][394]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.02-02.34.12:375][394]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-02.34.12:375][394]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.02-02.34.12:375][394]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-02.34.12:380][394]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-02.34.12:380][394]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-02.34.12:389][394]LogAudioMixer: Display: Using Audio Device Headphones (Galaxy Buds+ (A722) Stereo)
+[2021.12.02-02.34.12:389][394]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-02.34.12:389][394]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-02.34.12:389][394]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-02.34.12:390][394]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-02.34.12:390][394]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-02.34.12:390][394]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-02.34.12:400][394]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-02.34.12:401][394]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-02.34.12:401][394]LogInit: FAudioDevice initialized.
+[2021.12.02-02.34.12:401][394]LogAudio: Display: Audio Device (ID: 25) registered with world 'ThirdPersonExampleMap'.
+[2021.12.02-02.34.12:406][394]LogLoad: Game class is 'BatteryMan_GameMode_BP_C'
+[2021.12.02-02.34.12:407][394]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.12.01-21.34.12
+[2021.12.02-02.34.12:407][394]LogWorld: Bringing up level for play took: 0.000646
+[2021.12.02-02.34.12:407][394]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.12.02-02.34.12:408][394]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.02-02.34.12:408][394]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.02-02.34.12:408][394]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.02-02.34.12:409][394]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.02-02.34.12:409][394]PIE: Server logged in
+[2021.12.02-02.34.12:410][394]PIE: Play in editor total start time 0.11 seconds.
+[2021.12.02-02.34.20:108][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-02.34.20:108][266]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.02-02.34.20:108][266]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-02.34.20:108][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-02.34.20:115][266]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-02.34.20:126][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-02.34.20:148][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-02.34.20:152][266]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-02.34.20:153][266]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-02.34.20:185][266]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2021.12.02-02.34.20:211][267]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.12.02-02.34.37:639][167]LogSlate: Window 'Editor Preferences' being destroyed
+[2021.12.02-02.34.37:643][167]LogSlate: Window 'Editor Preferences' being destroyed
+[2021.12.02-02.34.38:898][300]Candidate modules for hot reload:
+[2021.12.02-02.34.38:898][300]  batteryGame
+[2021.12.02-02.34.38:898][300]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=batteryGame,184 batteryGameEditor Win64 Development -Project="C:/Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/batteryGame.uproject" "C:/Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/batteryGame.uproject"  -IgnoreJunk]
+[2021.12.02-02.34.38:900][300]Warning: Starting HotReload took  0.0s.
+[2021.12.02-02.34.40:413][404]CompilerResultsLog: New page: Compilation - Dec 1, 2021, 4:34:40 PM
+[2021.12.02-02.34.40:413][404]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rayven Wang\Documents\GitHub\batt_collect).
+[2021.12.02-02.34.40:413][404]CompilerResultsLog: Building batteryGameEditor...
+[2021.12.02-02.34.40:413][404]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.12.02-02.34.40:413][404]CompilerResultsLog: Building 3 actions with 16 processes...
+[2021.12.02-02.34.40:413][404]CompilerResultsLog:   [1/3] UE4Editor-batteryGame-0184.lib
+[2021.12.02-02.34.40:413][404]CompilerResultsLog:      Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0184.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0184.exp
+[2021.12.02-02.34.40:413][404]CompilerResultsLog:   [2/3] UE4Editor-batteryGame-0184.dll
+[2021.12.02-02.34.40:413][404]CompilerResultsLog:      Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0184.suppressed.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0184.suppressed.exp
+[2021.12.02-02.34.40:413][404]CompilerResultsLog:   [3/3] batteryGameEditor.target
+[2021.12.02-02.34.40:413][404]CompilerResultsLog: Total time in Parallel executor: 0.85 seconds
+[2021.12.02-02.34.40:413][404]CompilerResultsLog: Total execution time: 1.43 seconds
+[2021.12.02-02.34.40:413][404]LogMainFrame: MainFrame: Module compiling took 1.518 seconds
+[2021.12.02-02.34.40:426][404]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0084 seconds. Added 3605 classes and 861 folders.
+[2021.12.02-02.34.40:426][404]Display: HotReload took  1.5s.
+[2021.12.02-02.34.42:182][506]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.02-02.34.42:187][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-02.34.42:187][506]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2021, 4:34:42 PM)
+[2021.12.02-02.34.42:226][506]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.02-02.34.42:233][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007008s)
+[2021.12.02-02.34.42:234][506]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.12.02-02.34.42:234][506]LogPlayLevel: PIE: World Init took: (0.001094s)
+[2021.12.02-02.34.42:234][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008275s)
+[2021.12.02-02.34.42:294][506]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2021.12.02-02.34.42:304][506]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2021.12.02-02.34.42:304][506]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-02.34.42:304][506]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-02.34.42:304][506]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-02.34.42:304][506]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-02.34.42:304][506]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.02-02.34.42:304][506]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.02-02.34.42:304][506]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.02-02.34.42:304][506]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-02.34.42:305][506]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.02-02.34.42:305][506]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-02.34.42:309][506]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-02.34.42:309][506]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-02.34.42:318][506]LogAudioMixer: Display: Using Audio Device Headphones (Galaxy Buds+ (A722) Stereo)
+[2021.12.02-02.34.42:318][506]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-02.34.42:318][506]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-02.34.42:318][506]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-02.34.42:319][506]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-02.34.42:319][506]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-02.34.42:319][506]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-02.34.42:329][506]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-02.34.42:329][506]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-02.34.42:329][506]LogInit: FAudioDevice initialized.
+[2021.12.02-02.34.42:329][506]LogAudio: Display: Audio Device (ID: 26) registered with world 'ThirdPersonExampleMap'.
+[2021.12.02-02.34.42:336][506]LogLoad: Game class is 'BatteryMan_GameMode_BP_C'
+[2021.12.02-02.34.42:337][506]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.12.01-21.34.42
+[2021.12.02-02.34.42:338][506]LogWorld: Bringing up level for play took: 0.000609
+[2021.12.02-02.34.42:338][506]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2021.12.02-02.34.42:339][506]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.02-02.34.42:339][506]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.02-02.34.42:339][506]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.02-02.34.42:340][506]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.02-02.34.42:340][506]PIE: Server logged in
+[2021.12.02-02.34.42:340][506]PIE: Play in editor total start time 0.154 seconds.
+[2021.12.02-02.34.52:128][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-02.34.52:128][633]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.02-02.34.52:128][633]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-02.34.52:128][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-02.34.52:133][633]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-02.34.52:144][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-02.34.52:166][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-02.34.52:166][633]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-02.34.52:167][633]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-02.34.52:206][633]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2021.12.02-02.34.52:233][634]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2021.12.02-02.35.50:130][444]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2021.12.02-02.35.50:133][444]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.026
+[2021.12.02-02.35.50:133][444]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BatteryMan_BP] ([1] browsable assets)...
+[2021.12.02-02.35.50:145][444]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BatteryMan_BP.BatteryMan_BP]
+[2021.12.02-02.35.50:145][444]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BatteryMan_BP]
+[2021.12.02-02.35.50:161][444]LogSavePackage: Moving '../../../../../../Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/Saved/BatteryMan_BP_Auto44F96970049DD3A35EE31EC9473914DB8.tmp' to '../../../../../../Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/Saved/Autosaves/Game/Blueprints/BatteryMan_BP_Auto4.uasset'
+[2021.12.02-02.35.50:161][444]LogFileHelpers: Auto-saving content packages took 0.028
+[2021.12.02-02.36.35:160][505]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{ff277739-7c63-4c44-a57d-9ed1684e3bbd}.
+[2021.12.02-02.36.35:160][505]LogAudioMixer: Resetting audio stream to device id 
+[2021.12.02-02.36.35:227][505]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-02.36.35:227][505]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-02.46.16:595][582]LogHotReload: New module detected: UE4Editor-batteryGame-0018.dll
+[2021.12.02-02.46.17:613][586]LogHotReload: Starting Hot-Reload from IDE
+[2021.12.02-02.46.17:682][586]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'batteryGame' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.12.02-02.46.17:687][586]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.12.02-02.46.17:761][586]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0083 seconds. Added 3605 classes and 861 folders.
+[2021.12.02-02.46.17:764][586]Display: HotReload took  0.2s.
+[2021.12.02-02.46.24:353][809]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.02-02.46.24:358][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-02.46.24:358][809]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2021, 4:46:24 PM)
+[2021.12.02-02.46.24:395][809]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.02-02.46.24:401][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006724s)
+[2021.12.02-02.46.24:403][809]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.12.02-02.46.24:403][809]LogPlayLevel: PIE: World Init took: (0.001343s)
+[2021.12.02-02.46.24:403][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008265s)
+[2021.12.02-02.46.24:469][809]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2021.12.02-02.46.24:470][809]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2021.12.02-02.46.24:470][809]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-02.46.24:470][809]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-02.46.24:470][809]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-02.46.24:470][809]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-02.46.24:470][809]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.02-02.46.24:470][809]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.02-02.46.24:470][809]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.02-02.46.24:470][809]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-02.46.24:470][809]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.02-02.46.24:470][809]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-02.46.24:475][809]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-02.46.24:475][809]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-02.46.24:484][809]LogAudioMixer: Display: Using Audio Device VG245 (NVIDIA High Definition Audio)
+[2021.12.02-02.46.24:484][809]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-02.46.24:484][809]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-02.46.24:484][809]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-02.46.24:484][809]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-02.46.24:484][809]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-02.46.24:484][809]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-02.46.24:496][809]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-02.46.24:496][809]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-02.46.24:496][809]LogInit: FAudioDevice initialized.
+[2021.12.02-02.46.24:496][809]LogAudio: Display: Audio Device (ID: 27) registered with world 'ThirdPersonExampleMap'.
+[2021.12.02-02.46.24:507][809]LogLoad: Game class is 'BatteryMan_GameMode_BP_C'
+[2021.12.02-02.46.24:508][809]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.12.01-21.46.24
+[2021.12.02-02.46.24:508][809]LogWorld: Bringing up level for play took: 0.000635
+[2021.12.02-02.46.24:508][809]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.12.02-02.46.24:510][809]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.02-02.46.24:510][809]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.02-02.46.24:510][809]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.02-02.46.24:511][809]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.02-02.46.24:511][809]PIE: Server logged in
+[2021.12.02-02.46.24:511][809]PIE: Play in editor total start time 0.154 seconds.
+[2021.12.02-02.47.20:158][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-02.47.20:158][887]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.02-02.47.20:158][887]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-02.47.20:158][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-02.47.20:174][887]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-02.47.20:180][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-02.47.20:199][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-02.47.20:200][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-02.47.20:200][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-02.47.20:219][887]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2021.12.02-02.47.20:236][888]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.12.02-02.50.18:243][345]Candidate modules for hot reload:
+[2021.12.02-02.50.18:243][345]  batteryGame
+[2021.12.02-02.50.18:243][345]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=batteryGame,2697 batteryGameEditor Win64 Development -Project="C:/Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/batteryGame.uproject" "C:/Users/Rayven Wang/Documents/GitHub/batt_collect/batteryGame/batteryGame.uproject"  -IgnoreJunk]
+[2021.12.02-02.50.18:245][345]Warning: Starting HotReload took  0.1s.
+[2021.12.02-02.50.22:893][826]CompilerResultsLog: New page: Compilation - Dec 1, 2021, 4:50:22 PM
+[2021.12.02-02.50.22:893][826]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rayven Wang\Documents\GitHub\batt_collect).
+[2021.12.02-02.50.22:893][826]CompilerResultsLog: Invalidating makefile for batteryGameEditor (BatteryMan.cpp modified)
+[2021.12.02-02.50.22:893][826]CompilerResultsLog: Building batteryGameEditor...
+[2021.12.02-02.50.22:893][826]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.12.02-02.50.22:894][826]CompilerResultsLog: Building 4 actions with 16 processes...
+[2021.12.02-02.50.22:894][826]CompilerResultsLog:   [1/4] BatteryMan.cpp
+[2021.12.02-02.50.22:894][826]CompilerResultsLog:   [2/4] UE4Editor-batteryGame-2697.lib
+[2021.12.02-02.50.22:894][826]CompilerResultsLog:      Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-2697.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-2697.exp
+[2021.12.02-02.50.22:894][826]CompilerResultsLog:   [3/4] UE4Editor-batteryGame-2697.dll
+[2021.12.02-02.50.22:894][826]CompilerResultsLog:      Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-2697.suppressed.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-2697.suppressed.exp
+[2021.12.02-02.50.22:894][826]CompilerResultsLog:   [4/4] batteryGameEditor.target
+[2021.12.02-02.50.22:894][826]CompilerResultsLog: Total time in Parallel executor: 2.95 seconds
+[2021.12.02-02.50.22:894][826]CompilerResultsLog: Total execution time: 4.57 seconds
+[2021.12.02-02.50.22:894][826]LogMainFrame: MainFrame: Module compiling took 4.696 seconds
+[2021.12.02-02.50.22:945][826]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'batteryGame' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.12.02-02.50.22:951][826]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.12.02-02.50.23:025][826]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0088 seconds. Added 3605 classes and 861 folders.
+[2021.12.02-02.50.23:025][826]Display: HotReload took  4.8s.
+[2021.12.02-02.50.24:069][905]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.02-02.50.24:073][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.02-02.50.24:074][905]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 1, 2021, 4:50:24 PM)
+[2021.12.02-02.50.24:102][905]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.02-02.50.24:109][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006285s)
+[2021.12.02-02.50.24:110][905]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.12.02-02.50.24:110][905]LogPlayLevel: PIE: World Init took: (0.001186s)
+[2021.12.02-02.50.24:110][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.007684s)
+[2021.12.02-02.50.24:170][905]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2021.12.02-02.50.24:171][905]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2021.12.02-02.50.24:171][905]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.02-02.50.24:171][905]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.02-02.50.24:171][905]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.02-02.50.24:171][905]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.02-02.50.24:171][905]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.02-02.50.24:171][905]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.02-02.50.24:171][905]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.02-02.50.24:171][905]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.02-02.50.24:171][905]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.02-02.50.24:171][905]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.02-02.50.24:176][905]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.02-02.50.24:176][905]LogAudioMixer: Display: 1: FrontRight
+[2021.12.02-02.50.24:185][905]LogAudioMixer: Display: Using Audio Device VG245 (NVIDIA High Definition Audio)
+[2021.12.02-02.50.24:185][905]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.02-02.50.24:185][905]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.02-02.50.24:185][905]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.02-02.50.24:185][905]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.02-02.50.24:185][905]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.02-02.50.24:185][905]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.02-02.50.24:196][905]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.02-02.50.24:196][905]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.02-02.50.24:196][905]LogInit: FAudioDevice initialized.
+[2021.12.02-02.50.24:196][905]LogAudio: Display: Audio Device (ID: 28) registered with world 'ThirdPersonExampleMap'.
+[2021.12.02-02.50.24:205][905]LogLoad: Game class is 'BatteryMan_GameMode_BP_C'
+[2021.12.02-02.50.24:206][905]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.12.01-21.50.24
+[2021.12.02-02.50.24:207][905]LogWorld: Bringing up level for play took: 0.000662
+[2021.12.02-02.50.24:207][905]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2021.12.02-02.50.24:208][905]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.02-02.50.24:208][905]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.02-02.50.24:208][905]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.02-02.50.24:209][905]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.02-02.50.24:209][905]PIE: Server logged in
+[2021.12.02-02.50.24:210][905]PIE: Play in editor total start time 0.137 seconds.
+[2021.12.02-02.50.38:724][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-02.50.38:724][560]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.12.02-02.50.38:724][560]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-02.50.38:724][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-02.50.38:730][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.02-02.50.38:736][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-02.50.38:757][560]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.02-02.50.38:763][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-02.50.38:763][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.02-02.50.38:776][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.02-02.50.38:796][560]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2021.12.02-02.50.38:811][561]LogPlayLevel: Display: Destroying online subsystem :Context_34

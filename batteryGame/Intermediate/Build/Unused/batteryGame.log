@@ -1,13 +1,13 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rayven Wang\Documents\GitHub\batt_collect).
-  Invalidating makefile for batteryGameEditor (BatteryMan.cpp modified)
+  Creating makefile for batteryGameEditor (game project files are newer)
   Building batteryGameEditor...
   Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 16 processes...
     [1/4] BatteryMan.cpp
-    [2/4] UE4Editor-batteryGame-0011.lib
-       Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0011.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0011.exp
-    [3/4] UE4Editor-batteryGame-0011.dll
-       Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0011.suppressed.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0011.suppressed.exp
+    [2/4] UE4Editor-batteryGame-0018.lib
+       Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0018.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0018.exp
+    [3/4] UE4Editor-batteryGame-0018.dll
+       Creating library C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0018.suppressed.lib and object C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-0018.suppressed.exp
     [4/4] batteryGameEditor.target
-  Total time in Parallel executor: 2.56 seconds
-  Total execution time: 4.16 seconds
+  Total time in Parallel executor: 3.27 seconds
+  Total execution time: 4.87 seconds
