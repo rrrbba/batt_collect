@@ -50,7 +50,9 @@ ABatteryMan::ABatteryMan()
 void ABatteryMan::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	//bind onbeginoverlap with the component
+	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &ABatteryMan::OnBeginOverlap);
 }
 
 // Called every frame
@@ -116,4 +118,6 @@ void ABatteryMan::OnBeginOverlap(UPrimitiveComponent* HitComp, AActor* OtherActo
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Collided with"));
 	}
+
+	
 }
