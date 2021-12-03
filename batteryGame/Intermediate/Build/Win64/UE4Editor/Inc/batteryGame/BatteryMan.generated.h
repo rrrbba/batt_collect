@@ -8,14 +8,25 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef BATTERYGAME_BatteryMan_generated_h
 #error "BatteryMan.generated.h already included, missing '#pragma once' in BatteryMan.h"
 #endif
 #define BATTERYGAME_BatteryMan_generated_h
 
 #define batteryGame_Source_batteryGame_BatteryMan_h_23_SPARSE_DATA
-#define batteryGame_Source_batteryGame_BatteryMan_h_23_RPC_WRAPPERS
-#define batteryGame_Source_batteryGame_BatteryMan_h_23_RPC_WRAPPERS_NO_PURE_DECLS
+#define batteryGame_Source_batteryGame_BatteryMan_h_23_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnBeginOverlap);
+
+
+#define batteryGame_Source_batteryGame_BatteryMan_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnBeginOverlap);
+
+
 #define batteryGame_Source_batteryGame_BatteryMan_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABatteryMan(); \
