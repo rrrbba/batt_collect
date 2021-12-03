@@ -38,6 +38,12 @@ public:
 	//Determines if character is dead to determine if we can move or not
 	bool bDead;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly) //access this variable inside of a blueprint, need the bpro so we can access it
+		float Power;
+
+	UPROPERTY(EditAnywhere)
+		float Power_Threshold;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
