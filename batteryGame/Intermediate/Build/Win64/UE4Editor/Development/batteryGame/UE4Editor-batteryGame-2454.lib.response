@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-batteryGame-2454.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\batteryGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\batteryGame.cpp.obj"
+"C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\batteryGameCharacter.cpp.obj"
+"C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\batteryGameGameMode.cpp.obj"
+"C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\BatteryMan.cpp.obj"
+"C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\BatteryMan_GameMode.cpp.obj"
+"C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\batteryGame.init.gen.cpp.obj"
+"C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\batteryGameCharacter.gen.cpp.obj"
+"C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\batteryGameGameMode.gen.cpp.obj"
+"C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\BatteryMan.gen.cpp.obj"
+"C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\BatteryMan_GameMode.gen.cpp.obj"
+"C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\Default.rc2.res"
+/OUT:"C:\Users\Rayven Wang\Documents\GitHub\batt_collect\batteryGame\Intermediate\Build\Win64\UE4Editor\Development\batteryGame\UE4Editor-batteryGame-2454.lib"
+/INCLUDE:IMPLEMENT_MODULE_batteryGame

@@ -47,7 +47,7 @@ public:
 	UFUNCTION() //going to be tied to a delegate
 		void OnBeginOverlap(class UPrimitiveComponent* HitComp,
 			class AActor* OtherActor, class UPrimitiveComponent* OtherComp,
-			int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+			int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
 
 protected:
 	// Called when the game starts or when spawned
